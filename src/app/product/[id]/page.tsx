@@ -1,10 +1,10 @@
 import { notFound } from "next/navigation";
 
-import { getCatalogProductById } from "@/lib/data/products";
+import { CATALOG_REVALIDATE_SECONDS, getCatalogProductById } from "@/lib/data/products";
 
 import { ProductDetailClient } from "./ProductDetailClient";
 
-export const dynamic = "force-dynamic";
+export const revalidate = CATALOG_REVALIDATE_SECONDS;
 
 interface ProductDetailPageProps {
   params: {
