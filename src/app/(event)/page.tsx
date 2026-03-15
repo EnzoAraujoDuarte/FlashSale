@@ -1,7 +1,7 @@
 import { PhaseRouter } from "@/components/ui/PhaseRouter";
-import { getCatalogProducts } from "@/lib/data/products";
+import { CATALOG_REVALIDATE_SECONDS, getCatalogProducts } from "@/lib/data/products";
 
-export const dynamic = "force-dynamic";
+export const revalidate = CATALOG_REVALIDATE_SECONDS;
 
 export default async function EventPage() {
   const initialProducts = await getCatalogProducts();
