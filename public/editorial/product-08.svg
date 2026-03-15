@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" fill="none">
+  <defs>
+    <linearGradient id="bg8" x1="50" y1="24" x2="548" y2="776" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16161A"/>
+      <stop offset="1" stop-color="#080809"/>
+    </linearGradient>
+    <linearGradient id="accent8" x1="186" y1="224" x2="418" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF3B30"/>
+      <stop offset="1" stop-color="#FF7A00"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="40" fill="url(#bg8)"/>
+  <rect x="48" y="48" width="504" height="704" rx="28" fill="#121214" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="146" cy="178" r="98" fill="#FF3B30" fill-opacity=".09"/>
+  <path d="M202 252c18-46 54-74 98-74 44 0 80 28 98 74v42H202v-42Z" fill="url(#accent8)"/>
+  <path d="M162 322h276c0 92-60 154-138 154S162 414 162 322Z" fill="#F4F4F5" fill-opacity=".16"/>
+  <rect x="232" y="282" width="136" height="38" rx="18" fill="#252529"/>
+  <text x="80" y="104" fill="#A1A1AA" font-family="Space Grotesk, Arial, sans-serif" font-size="18" letter-spacing="5">AETHER DIVISION</text>
+  <text x="80" y="666" fill="#F4F4F5" font-family="Space Grotesk, Arial, sans-serif" font-size="42" font-weight="700">FREQUENCY</text>
+  <text x="80" y="708" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="4">CAP</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" fill="none">
+  <defs>
+    <linearGradient id="bg3" x1="62" y1="24" x2="540" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16161A"/>
+      <stop offset="1" stop-color="#09090A"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="174" y1="202" x2="430" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5A33"/>
+      <stop offset="1" stop-color="#B43628"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="40" fill="url(#bg3)"/>
+  <rect x="48" y="48" width="504" height="704" rx="28" fill="#121214" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="456" cy="584" r="96" fill="#FF3B30" fill-opacity=".10"/>
+  <path d="M194 192h212l44 62H150l44-62Z" fill="#2A2A2E"/>
+  <path d="M156 258h288l-40 244H196l-40-244Z" fill="url(#accent3)"/>
+  <rect x="206" y="514" width="188" height="104" rx="28" fill="#ECECEC" fill-opacity=".17"/>
+  <text x="80" y="104" fill="#A1A1AA" font-family="Space Grotesk, Arial, sans-serif" font-size="18" letter-spacing="5">AETHER DIVISION</text>
+  <text x="80" y="666" fill="#F4F4F5" font-family="Space Grotesk, Arial, sans-serif" font-size="42" font-weight="700">PRESSURE</text>
+  <text x="80" y="708" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="4">CREW SWEAT</text>
+</svg>
+

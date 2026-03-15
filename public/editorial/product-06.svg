@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" fill="none">
+  <defs>
+    <linearGradient id="bg6" x1="58" y1="30" x2="550" y2="774" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16161A"/>
+      <stop offset="1" stop-color="#09090A"/>
+    </linearGradient>
+    <linearGradient id="accent6" x1="166" y1="216" x2="432" y2="568" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5E2C"/>
+      <stop offset="1" stop-color="#FF7A00"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="40" fill="url(#bg6)"/>
+  <rect x="48" y="48" width="504" height="704" rx="28" fill="#121214" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="138" cy="582" r="106" fill="#FF3B30" fill-opacity=".09"/>
+  <rect x="178" y="214" width="244" height="180" rx="48" fill="url(#accent6)"/>
+  <path d="M216 294h168" stroke="#F4F4F5" stroke-opacity=".16" stroke-width="28" stroke-linecap="round"/>
+  <path d="M248 394h104l26 112H222l26-112Z" fill="#EDEEF1" fill-opacity=".17"/>
+  <text x="80" y="104" fill="#A1A1AA" font-family="Space Grotesk, Arial, sans-serif" font-size="18" letter-spacing="5">AETHER DIVISION</text>
+  <text x="80" y="666" fill="#F4F4F5" font-family="Space Grotesk, Arial, sans-serif" font-size="42" font-weight="700">TRANSIT</text>
+  <text x="80" y="708" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="4">SLING PACK</text>
+</svg>
+

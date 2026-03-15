@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" fill="none">
+  <defs>
+    <linearGradient id="bg1" x1="40" y1="24" x2="560" y2="776" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A1A1E"/>
+      <stop offset="1" stop-color="#0A0A0B"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="112" y1="188" x2="470" y2="598" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF3B30"/>
+      <stop offset="1" stop-color="#FF7A00"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="40" fill="url(#bg1)"/>
+  <rect x="48" y="48" width="504" height="704" rx="28" fill="#121214" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="452" cy="176" r="116" fill="#FF3B30" fill-opacity=".16"/>
+  <path d="M170 188h212l52 230H224l-54-230Z" fill="url(#accent1)"/>
+  <path d="M225 418h208l-37 133H258l-33-133Z" fill="#E6E7EB" fill-opacity=".18"/>
+  <path d="M264 188h77l17 45h-108l14-45Z" fill="#2A2A2E"/>
+  <text x="80" y="104" fill="#A1A1AA" font-family="Space Grotesk, Arial, sans-serif" font-size="18" letter-spacing="5">AETHER DIVISION</text>
+  <text x="80" y="666" fill="#F4F4F5" font-family="Space Grotesk, Arial, sans-serif" font-size="42" font-weight="700">NIGHTSHIFT</text>
+  <text x="80" y="708" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="4">SHELL JACKET</text>
+</svg>
+

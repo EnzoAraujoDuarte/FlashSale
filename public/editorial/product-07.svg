@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" fill="none">
+  <defs>
+    <linearGradient id="bg7" x1="44" y1="26" x2="558" y2="768" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17171B"/>
+      <stop offset="1" stop-color="#080809"/>
+    </linearGradient>
+    <linearGradient id="accent7" x1="176" y1="226" x2="432" y2="562" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A00"/>
+      <stop offset="1" stop-color="#FF3B30"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="40" fill="url(#bg7)"/>
+  <rect x="48" y="48" width="504" height="704" rx="28" fill="#121214" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="448" cy="592" r="104" fill="#FF7A00" fill-opacity=".09"/>
+  <path d="M184 360c0-86 60-152 118-152 43 0 65 31 84 74 12 27 23 40 46 40 26 0 46 22 46 56v24H184v-42Z" fill="url(#accent7)"/>
+  <path d="M238 438h126l46 96H196l42-96Z" fill="#ECECEC" fill-opacity=".17"/>
+  <path d="M254 534h92l18 66H236l18-66Z" fill="#252529"/>
+  <text x="80" y="104" fill="#A1A1AA" font-family="Space Grotesk, Arial, sans-serif" font-size="18" letter-spacing="5">AETHER DIVISION</text>
+  <text x="80" y="666" fill="#F4F4F5" font-family="Space Grotesk, Arial, sans-serif" font-size="42" font-weight="700">ALLOY</text>
+  <text x="80" y="708" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="4">RUNNER</text>
+</svg>
+

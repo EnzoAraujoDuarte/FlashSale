@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" fill="none">
+  <defs>
+    <linearGradient id="bg2" x1="58" y1="40" x2="526" y2="772" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151518"/>
+      <stop offset="1" stop-color="#09090A"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="188" y1="184" x2="406" y2="586" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A00"/>
+      <stop offset="1" stop-color="#FF3B30"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="40" fill="url(#bg2)"/>
+  <rect x="48" y="48" width="504" height="704" rx="28" fill="#121214" stroke="rgba(255,255,255,0.08)"/>
+  <path d="M192 170h213l30 92H166l26-92Z" fill="#2A2A2E"/>
+  <path d="M182 256h235l-34 286H221l-39-286Z" fill="url(#accent2)"/>
+  <path d="M244 546h124l42 118H200l44-118Z" fill="#ECECEC" fill-opacity=".18"/>
+  <circle cx="178" cy="608" r="98" fill="#FF7A00" fill-opacity=".10"/>
+  <text x="80" y="104" fill="#A1A1AA" font-family="Space Grotesk, Arial, sans-serif" font-size="18" letter-spacing="5">AETHER DIVISION</text>
+  <text x="80" y="666" fill="#F4F4F5" font-family="Space Grotesk, Arial, sans-serif" font-size="42" font-weight="700">VECTOR</text>
+  <text x="80" y="708" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="4">CARGO PANT</text>
+</svg>
+

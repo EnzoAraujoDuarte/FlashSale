@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" fill="none">
+  <defs>
+    <linearGradient id="bg5" x1="40" y1="20" x2="556" y2="778" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17171B"/>
+      <stop offset="1" stop-color="#09090A"/>
+    </linearGradient>
+    <linearGradient id="accent5" x1="154" y1="214" x2="444" y2="562" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB066"/>
+      <stop offset="1" stop-color="#FF7A00"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" rx="40" fill="url(#bg5)"/>
+  <rect x="48" y="48" width="504" height="704" rx="28" fill="#121214" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="454" cy="202" r="110" fill="#FF7A00" fill-opacity=".12"/>
+  <path d="M188 208h224l38 56H150l38-56Z" fill="#2A2A2E"/>
+  <rect x="172" y="266" width="256" height="258" rx="42" fill="url(#accent5)"/>
+  <path d="M210 318h180M210 378h180M210 438h180" stroke="#F4F4F5" stroke-opacity=".18" stroke-width="18" stroke-linecap="round"/>
+  <text x="80" y="104" fill="#A1A1AA" font-family="Space Grotesk, Arial, sans-serif" font-size="18" letter-spacing="5">AETHER DIVISION</text>
+  <text x="80" y="666" fill="#F4F4F5" font-family="Space Grotesk, Arial, sans-serif" font-size="42" font-weight="700">GRIDLINE</text>
+  <text x="80" y="708" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="4">KNIT POLO</text>
+</svg>
+
