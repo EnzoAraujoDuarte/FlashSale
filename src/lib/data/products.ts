@@ -14,7 +14,10 @@ interface FakeStoreApiProduct {
   };
 }
 
-const FAKE_STORE_PRODUCTS_ENDPOINT = "https://fakestoreapi.com/products?limit=8";
+export const CATALOG_REVALIDATE_SECONDS = 60 * 30;
+
+const FAKE_STORE_PRODUCTS_ENDPOINT =
+  process.env.FAKE_STORE_API_URL ?? "https://fakestoreapi.com/products?limit=8";
 let cachedCatalogProducts: Product[] | null = null;
 
 const SCARCITY_PROFILE = [12, 10, 8, 6, 5, 4, 3, 2];
@@ -150,7 +153,12 @@ function mapFakeStoreProduct(product: FakeStoreApiProduct, index: number): Produ
 export async function getCatalogProducts() {
   try {
     const response = await fetch(FAKE_STORE_PRODUCTS_ENDPOINT, {
-      cache: "no-store"
+      headers: {
+        accept: "application/json"
+      },
+      next: {
+        revalidate: CATALOG_REVALIDATE_SECONDS
+      }
     });
 
     if (!response.ok) {
@@ -168,7 +176,12 @@ export async function getCatalogProducts() {
     cachedCatalogProducts = catalogProducts;
 
     return catalogProducts;
-  } catch {
+  } catch (error) {
+    console.error("[catalog] Failed to load FakeStore catalog.", {
+      endpoint: FAKE_STORE_PRODUCTS_ENDPOINT,
+      error: error instanceof Error ? error.message : "Unknown error"
+    });
+
     return cachedCatalogProducts ?? productsMock;
   }
 }
